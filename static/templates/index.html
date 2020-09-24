@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h1>My First Flask Server!</h1>
+    <p>My first paragraph.</p>
+    <img src="{{url_for('static', filename='images/flower.jpg') }}"/>
+{% endblock %}
